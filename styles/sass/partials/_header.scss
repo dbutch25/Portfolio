@@ -1,0 +1,57 @@
+header{
+    height: 100vh;
+    background-color: $darkerBg;
+    color: white;
+    position: relative;
+}
+
+nav{
+    display: flex ;
+    justify-content: flex-end;
+    padding-top: 20px;
+}
+
+.navUl{
+    display: flex;
+    justify-content: flex-end;
+
+    li{
+
+        a{
+            padding: 10px;
+        }
+    }
+}
+
+h1{
+    padding-top: 20px;
+}
+
+.about{
+    width: 40%;
+    padding-top: 50px;
+}
+
+.danielB{
+    width: 50%;
+    border-radius: 50%;
+}
+
+h2{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    letter-spacing: 0%;
+    position: absolute;
+    right: 25%;
+    top: 20%;
+    font-size: 2rem;
+    letter-spacing: -15px;
+    text-transform: uppercase;
+    
+    .developer{
+        position: inherit;
+        top: 105px;
+        right: -40px;
+    }
+
+}

@@ -26,7 +26,8 @@ figure {
 }
 
 hr {
-  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
   height: 0;
   overflow: visible;
 }
@@ -139,7 +140,8 @@ fieldset {
 }
 
 legend {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   color: inherit;
   display: table;
   max-width: 100%;
@@ -157,7 +159,8 @@ textarea {
 }
 
 [type=checkbox], [type=radio] {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 0;
 }
 
@@ -200,11 +203,13 @@ template {
 }
 
 html {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 *, *:before, *:after {
-  box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
 }
 
 .sr-only {
@@ -219,4 +224,171 @@ html {
           clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}/*# sourceMappingURL=style.css.map */
+}
+
+html {
+  font-size: 125%;
+  color: white;
+}
+
+body {
+  font-family: "proxima-nova", sans-serif;
+}
+
+header {
+  font-family: "Bodoni Moda", serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 600;
+}
+
+nav {
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.4rem;
+}
+
+ul, li, a, input {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.wrapper {
+  max-width: 1260px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  height: 100vh;
+  background-color: #18152e;
+  color: white;
+  position: relative;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-top: 20px;
+}
+
+.navUl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.navUl li a {
+  padding: 10px;
+}
+
+h1 {
+  padding-top: 20px;
+}
+
+.about {
+  width: 40%;
+  padding-top: 50px;
+}
+
+.danielB {
+  width: 50%;
+  border-radius: 50%;
+}
+
+h2 {
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  text-orientation: upright;
+  letter-spacing: 0%;
+  position: absolute;
+  right: 25%;
+  top: 20%;
+  font-size: 2rem;
+  letter-spacing: -15px;
+  text-transform: uppercase;
+}
+h2 .developer {
+  position: inherit;
+  top: 105px;
+  right: -40px;
+}
+
+.projects {
+  background-color: #1d1938;
+}
+
+.skills {
+  background: #18152e;
+  height: 40vh;
+}
+
+.skillList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 90%;
+}
+
+li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20%;
+}
+
+i {
+  font-size: 3rem;
+  padding: 20px;
+  margin: 15px;
+}
+
+ul li:hover i {
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}

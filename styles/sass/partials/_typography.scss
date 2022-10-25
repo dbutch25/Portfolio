@@ -1,0 +1,49 @@
+@use "./variables" as *;
+
+// TYPOGRAPHY
+
+html{
+    font-size: 125%;
+    color: white;
+}
+
+body{
+    font-family: 'proxima-nova', sans-serif;
+}
+
+ header{
+        font-family: 'Bodoni Moda', serif;
+ }
+
+ h1{
+    font-size: 3rem;
+ }
+
+ h3{
+    font-size: 2rem;
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 600;
+ }
+
+ nav{
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.4rem;
+ }
+
+ ul, li, a, input{
+    padding: 0;
+    margin: 0;
+ }
+
+ ul{
+    list-style: none;
+ }
+
+ a{
+    text-decoration: none;
+    color: inherit;
+    transition: 0.3s;
+ }
