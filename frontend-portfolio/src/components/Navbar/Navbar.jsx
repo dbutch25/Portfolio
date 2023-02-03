@@ -3,7 +3,7 @@ import { HiMenuAlt4, HiX } from 'react-icons/hi';
 import {motion} from'framer-motion';
 import { useState } from 'react';
 
-import {images} from '../../constants';
+// import {images} from '../../constants';
 import './Navbar.scss';
 
 const Navbar = () => {
@@ -11,9 +11,9 @@ const Navbar = () => {
 
   return (
     <nav className="app__navbar">
-      <div className="app__navbar-logo">
+      {/* <div className="app__navbar-logo">
         <img src={images.lgoo} alt="logo" />
-      </div>
+      </div> */}
       <ul className="app__navbar-links">
         {['home', 'about', 'projects', 'skills', 'contact'].map((item) => (
           <li className="app__flex p-text" key={`link-${item}`}>

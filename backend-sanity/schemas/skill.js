@@ -1,25 +1,26 @@
-export default {
-  name: 'skill',
-  type: 'document',
-  title: 'Skill',
-  fields: [
-    {
-      name: 'name',
-      type: 'string',
-      title: 'Name'
-    },
-      {
-      name: 'description',
-      type: 'string',
-      title: 'Description'
-    },
-      {
-      name: 'imageurl',
-      type: 'image',
-      title: 'ImgURL',
-      options: {
-        hotspot: true,
-      }
-    },
-  ],
+export default{
+    name:'skill',
+    title:'Skill',
+    type: 'document',
+    fields:[
+        {
+            name:'name',
+            title:'Name',
+            type:'string'
+        },
+        {
+            name:'bgColor',
+            title:'BgColor',
+            type:'string'
+        },
+        {
+            name:'icon',
+            title:'Icon',
+            type: 'image',
+            options: {
+              hotspot: true,
+            },
+        },
+        
+    ]
 }
