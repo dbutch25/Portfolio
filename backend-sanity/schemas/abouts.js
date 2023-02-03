@@ -1,12 +1,12 @@
 export default {
-  name: 'contact',
+  name: 'abouts',
   type: 'document',
-  title: 'About',
+  title: 'Abouts',
   fields: [
     {
-      name: 'name',
+      name: 'title',
       type: 'string',
-      title: 'Name'
+      title: 'Title'
     },
       {
       name: 'description',
@@ -14,9 +14,9 @@ export default {
       title: 'Description'
     },
       {
-      name: 'imageurl',
+      name: 'imgUrl',
       type: 'image',
-      title: 'ImgURL',
+      title: 'ImgUrl',
       options: {
         hotspot: true,
       }

@@ -1,5 +1,3 @@
-import about from './about'
-import contact from './contact'
-import skill from './skill'
+import abouts from './abouts'
 
-export const schemaTypes = [ about, contact, skill ]
+export const schemaTypes = [abouts]
