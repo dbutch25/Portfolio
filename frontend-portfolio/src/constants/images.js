@@ -7,7 +7,7 @@ import html from '../assets/html.png';
 import javascript from '../assets/javascript-original.png';
 import react from '../assets/react-original.png';
 import sass from '../assets/sass-original.png';
-
+import lgoo from '../assets/lgoo.png'
 
 import profile from '../assets/profile.png';
 import circle from '../assets/circle.svg';
@@ -32,6 +32,7 @@ export default {
   sass,
   profile,
   circle,
+  lgoo,
   logo,
   webdev,
   webdesign,
