@@ -1,25 +1,22 @@
 export default {
-  name: 'contact',
-  type: 'document',
-  title: 'Contact',
-  fields: [
-    {
-      name: 'name',
-      type: 'string',
-      title: 'Name'
-    },
-      {
-      name: 'description',
-      type: 'string',
-      title: 'Description'
-    },
-      {
-      name: 'imageurl',
-      type: 'image',
-      title: 'ImgURL',
-      options: {
-        hotspot: true,
-      }
-    },
-  ],
+    name:'contact',
+    title:'Contact',
+    type:'document',
+    fields:[
+        {
+            name:'name',
+            title:'Name',
+            type:'string'
+        },
+        {
+            name:'email',
+            title:'Email',
+            type:'string'
+        },
+        {
+            name:'message',
+            title:'Message',
+            type:'text'
+        }
+    ]
 }
